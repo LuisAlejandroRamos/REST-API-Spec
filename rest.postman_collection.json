@@ -1,0 +1,56 @@
+{
+	"info": {
+		"_postman_id": "972fac9f-9c2b-47e0-a7fd-ad36ccb78f52",
+		"name": "rest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost/REST/post.php",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "title",
+							"value": "prueba(2",
+							"type": "default"
+						},
+						{
+							"key": "status",
+							"value": "draft",
+							"type": "default"
+						},
+						{
+							"key": "content",
+							"value": "mi segunda rest",
+							"type": "default"
+						},
+						{
+							"key": "user_id",
+							"value": "1",
+							"type": "default"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost/REST/post.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"REST",
+						"post.php"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
